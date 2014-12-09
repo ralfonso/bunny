@@ -1,0 +1,1416 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <name>MMJ Dispensaries in Denver</name>
+    <description>| Created with http://batchgeo.com</description>
+    <style id="0">
+      <BalloonStyle>
+        <text>
+          <![CDATA[ <b>$[name]</b><br />$[address]<br />$[description]<br/><br/>$[geDirections] ]]>
+</text>
+      </BalloonStyle>
+    </style>
+    <Folder>
+    <Placemark>
+      <name>1617 WAZEE STREET LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99987343506,39.751722558244,0</coordinates>
+      </Point>
+      <address>1617 Wazee St. Unit B Denver, CO 80202</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>3-D DENVER'S DISCREET DISPENSARY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97003171799,39.77760495424,0</coordinates>
+      </Point>
+      <address>4305 Brighton Blvd. Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>4625 E COLFAX LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.93315571119,39.740438405067,0</coordinates>
+      </Point>
+      <address>4625 E. Colfax Avenue Denver, CO 80220</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>5110 RACE LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.96295352924,39.788353240711,0</coordinates>
+      </Point>
+      <address>5110 Race St. Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>5280 WELLNESS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99430235858,39.737282810251,0</coordinates>
+      </Point>
+      <address>1321 Elati Street Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>A CUT OFF THE TOP MEDICAL MARIJUANA</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.01241625106,39.731280489182,0</coordinates>
+      </Point>
+      <address>2059 W. 9th Ave Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ADVANCED MEDICAL ALTERNATIVES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99422614317,39.736569859197,0</coordinates>
+      </Point>
+      <address>1269 Elati St. Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ALCC LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>-105.0218664802,39.71084269168,0</coordinates>
+      </Point>
+      <address>2748 West Alameda Avenue Denver, CO 80219</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ALIVE HERBAL MEDICINE</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.00705156907,39.779484002635,0</coordinates>
+      </Point>
+      <address>4573 Pecos Street Denver, CO 80211</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ALPINE HERBAL WELLNESS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02523948238,39.723098658081,0</coordinates>
+      </Point>
+      <address>445 Federal Blvd Denver, CO 80206</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ALTERNATIVE MEDICINE ON CAPITOL HILL</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97199040117,39.736956419804,0</coordinates>
+      </Point>
+      <address>1301 Marion Street Denver, CO 80218</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ALTERNATIVE MEDICINE ON THE MALL LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99432322624,39.746634665975,0</coordinates>
+      </Point>
+      <address>910 - 16th St, Ste 805 Denver, CO 80202</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ALTITUDE WELLNESS CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.88487162322,39.654824329189,0</coordinates>
+      </Point>
+      <address>3435 S Yosemite Denver, CO 80231</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>AMERICAN INDUSTRY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.92050206191,39.779546688408,0</coordinates>
+      </Point>
+      <address>4571 N. Ivy Street Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>APOTHECARY OF COLORADO LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98498485395,39.752476103109,0</coordinates>
+      </Point>
+      <address>800 Park Avenue West Denver, CO 80205</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>AT HOME REMEDIES INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.04821962031,39.769617738508,0</coordinates>
+      </Point>
+      <address>4735 W. 38th Avenue Denver, CO 80212</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>BALLPARK HOLISTIC DISPENSARY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99122527254,39.754390177429,0</coordinates>
+      </Point>
+      <address>2119 Larimer St.# 1 Denver, CO 80205</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>BEYOND BROADWAY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98742736177,39.708806379744,0</coordinates>
+      </Point>
+      <address>432 S. Broadway Denver, CO 80209</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>BGOOD VENTURES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98133851556,39.715104949668,0</coordinates>
+      </Point>
+      <address>80 S Pennsylvania St. Denver, CO 80209</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>BIOCARE INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.90757105486,39.654028080458,0</coordinates>
+      </Point>
+      <address>3425 S. Oleander Court, Unit B Denver, CO
+      80224</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>BIOHEALTH LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.89871111783,39.637344289451,0</coordinates>
+      </Point>
+      <address>4380 S. Syracuse Street, Suite 310 Denver, CO
+      80237</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>BOTANICO INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97931633546,39.762835205909,0</coordinates>
+      </Point>
+      <address>3054 Larimer Street Denver, CO 80205</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>BOTICA DEL SOL</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98707599229,39.702726854596,0</coordinates>
+      </Point>
+      <address>754 South Broadway Denver, CO 80209</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>BUDDIES WELLNESS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.00369871057,39.712873450618,0</coordinates>
+      </Point>
+      <address>1270 W. Cedar Avenue, Unit A Denver, CO
+      80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CANNA CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.92124333959,39.67830297088,0</coordinates>
+      </Point>
+      <address>5670 E Evans Ave #216 Denver, CO 80222</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CANNABIS FOR HEALTH LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98068564343,39.711396188187,0</coordinates>
+      </Point>
+      <address>285 S Pearl St Denver, CO 80209</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CANNABIS KING LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.00022495555,39.706928102112,0</coordinates>
+      </Point>
+      <address>1131 W. Custer Place, Unit A Denver, CO
+      80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CANNABIS MEDICAL TECHNOLOGY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99989848243,39.728598956311,0</coordinates>
+      </Point>
+      <address>762 Kalamath Street Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CAREGIVERS FOR LIFE LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.95067694404,39.721249087948,0</coordinates>
+      </Point>
+      <address>310 Saint Paul St Denver, CO 80206</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CG NETWORK LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.95058801021,39.740449093427,0</coordinates>
+      </Point>
+      <address>3121 E. Colfax Avenue Denver, CO 80206</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CITI-MED LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.96790209735,39.678348771705,0</coordinates>
+      </Point>
+      <address>1640 E. Evans Avenue Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CJJ SERVICES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.9195689045,39.678682706184,0</coordinates>
+      </Point>
+      <address>5885 E. Evans Avenue Denver, CO 80222</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CNW LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98964033627,39.679412069943,0</coordinates>
+      </Point>
+      <address>2042 S Bannock St. Denver, CO 80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADO ALTERNATIVE MEDICINE CORP</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98745180545,39.673218820006,0</coordinates>
+      </Point>
+      <address>2394 S. Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADO CANNABIS COMPANY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99040660207,39.734435734433,0</coordinates>
+      </Point>
+      <address>1133 Bannock St. Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADO CANNABIS SERVICES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.88033249224,39.683361068034,0</coordinates>
+      </Point>
+      <address>1842 S Parker Rd, Unit 18 Denver, CO 80231</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADO CARE FACILITY INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.92713753588,39.74001560632,0</coordinates>
+      </Point>
+      <address>5130 E. Colfax Avenue Denver, CO 80220</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADO FARMS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.84926341483,39.773321050858,0</coordinates>
+      </Point>
+      <address>11975 E. 40th Avenue Denver, CO 80239</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADO WELLNESS CENTERS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.0173564872,39.718484711294,0</coordinates>
+      </Point>
+      <address>2490 W. 2nd Avenue, Unit A Denver, CO
+      80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADO WELLNESS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98757309006,39.679295128211,0</coordinates>
+      </Point>
+      <address>2057 S Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADOS BEST INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98547490464,39.727317032159,0</coordinates>
+      </Point>
+      <address>105 E. 7th Ave Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COLORADOS BEST INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.9779419854,39.790873242411,0</coordinates>
+      </Point>
+      <address>5194 Washington Street Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COMPASSIONATE CAREGIVERS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99184229789,39.752415297866,0</coordinates>
+      </Point>
+      <address>1201 20TH ST Denver, CO 80202</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>COMPASSIONATE CAREGIVERS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.0002840691,39.750644103786,0</coordinates>
+      </Point>
+      <address>1538 Wazee St. Denver, CO 80202</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>CURE MEDICAL PHARM INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99944366695,39.725690133189,0</coordinates>
+      </Point>
+      <address>990 W 6th Avenue, Unit #5 Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>D &amp; D CONSULTING INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99480251149,39.697145767192,0</coordinates>
+      </Point>
+      <address>1075 S. Fox Street Denver, CO 80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>DENCO LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>-104.9941853847,39.76514089896,0</coordinates>
+      </Point>
+      <address>3460 Park Avenue West, Unit D Denver, CO
+      80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>Denver Dispensary LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.94564790025,39.78666955694,0</coordinates>
+      </Point>
+      <address>4975 Vasquez Blvd. Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>DENVER PATIENTS GROUP LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98206257713,39.76138034886,0</coordinates>
+      </Point>
+      <address>2863 Larimer Street, Unit B Denver, CO
+      80205</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>DISCOUNT MEDICAL MARIJUANA LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.96260817178,39.739814260254,0</coordinates>
+      </Point>
+      <address>2028 E Colfax Ave Denver, CO 80206</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>DISCOUNT MEDICAL MARIJUANA LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98610869402,39.731723164257,0</coordinates>
+      </Point>
+      <address>970 Lincoln Street Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>DKC LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97893779063,39.754179036953,0</coordinates>
+      </Point>
+      <address>2615 Welton Street Denver, CO 80205</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>EVERGREEN APOTHECARY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98734422039,39.688200763644,0</coordinates>
+      </Point>
+      <address>1568 S Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>EVOLUTIONARY HOLDINGS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02516777747,39.714364816516,0</coordinates>
+      </Point>
+      <address>82 S. Federal Blvd. Denver, CO 80219</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>F-SQUARED INDUSTRIES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>-104.874997934,39.708334712723,0</coordinates>
+      </Point>
+      <address>330 S Dayton St Denver, CO 80247</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GANJA GOURMET LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98718449054,39.683697279911,0</coordinates>
+      </Point>
+      <address>1810 S Broadway Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GG MERCANTILE LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99064199863,39.692583842766,0</coordinates>
+      </Point>
+      <address>1332 South Cherokee Street Denver, CO
+      80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GG-MMD, INC.</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.94915115952,39.740526401791,0</coordinates>
+      </Point>
+      <address>1515 Adams St Denver, CO 80206</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GREEN AROUND YOU LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.90863636983,39.699504700792,0</coordinates>
+      </Point>
+      <address>970 S. Onieda #17 Denver, CO 80224</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GREEN CROSS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.9494598639,39.718427372094,0</coordinates>
+      </Point>
+      <address>128 Steele Street, #200 Denver, CO 80206</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GREEN LEAF LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.90270727897,39.674970070856,0</coordinates>
+      </Point>
+      <address>2280 S. Quebec Street, #G Denver, CO 80231</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GREEN MEDICALS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02523378336,39.714079233256,0</coordinates>
+      </Point>
+      <address>155 N Federal Blvd. Denver, CO 80219</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GREEN THUMB ORGANICS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98046451093,39.786506363801,0</coordinates>
+      </Point>
+      <address>4945 Pearl St Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>GREENER PASTURE COMPASSION CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.92843763156,39.740312261796,0</coordinates>
+      </Point>
+      <address>5101 E. Colfax Avenue Denver, CO 80220</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>HEALTH DEPOT LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.93320122331,39.740267481126,0</coordinates>
+      </Point>
+      <address>4615 East Colfax Avenue Denver, CO 80220</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>HERBAL HEALTH LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99346657645,39.736963994158,0</coordinates>
+      </Point>
+      <address>419 W. 13th Avenue Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>HERBAL WELLNESS</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.01473993839,39.718617520571,0</coordinates>
+      </Point>
+      <address>110 Yuma Street, Unit #1 &amp; 2 Denver, CO
+      80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>HERB'S NEST LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.94169347391,39.783769912884,0</coordinates>
+      </Point>
+      <address>3900 E 48th Ave. Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>HIGH COUNTRY SUPPLY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>-105.0000032045,39.69529295029,0</coordinates>
+      </Point>
+      <address>1178 S Kalamath St. Denver, CO 80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>HIGHLANDS WELLNESS CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>-105.03370495698,39.7618934679,0</coordinates>
+      </Point>
+      <address>3460 W. 32nd Avenue Denver, CO 80211</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>HOBBY FARMS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98759171366,39.681734086868,0</coordinates>
+      </Point>
+      <address>1911 S Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>HOLLY MEDICINAL SERVICES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.94213417646,39.685265623179,0</coordinates>
+      </Point>
+      <address>3888 E Mexico Avenue, Suite 110 Denver, CO
+      80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>IVITA WELLNESS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98200744664,39.726748104284,0</coordinates>
+      </Point>
+      <address>660 Logan Street Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>IVITA WELLNESS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97959595869,39.742817252242,0</coordinates>
+      </Point>
+      <address>1660 Pearl Street Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>JGB VENTURES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.9213581625,39.761945969781,0</coordinates>
+      </Point>
+      <address>3835 Elm Street, Units B &amp; C Denver, CO
+      80207</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>KAYAK CORPORATION</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99835262417,39.692599054977,0</coordinates>
+      </Point>
+      <address>1325 S. Inca Street Denver, CO 80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>L'EAGLE SERVICES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.00671830687,39.72250509445,0</coordinates>
+      </Point>
+      <address>380 Quivas Street Denver, CO 80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>LIGHT SHADE LABS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.92186918772,39.772191459203,0</coordinates>
+      </Point>
+      <address>3950 Holly Street Denver, CO 80207</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>LINCOLN HERBAL INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.9860782371,39.723065338283,0</coordinates>
+      </Point>
+      <address>424 Lincoln St. . Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>LITTLE BROWN HOUSE</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98794862484,39.680485150167,0</coordinates>
+      </Point>
+      <address>1995 S. Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>LITTLE GREEN PHARMACY INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98786178773,39.692292544941,0</coordinates>
+      </Point>
+      <address>1331 S. Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>LOTUS MEDICAL LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.0021032795,39.749461724088,0</coordinates>
+      </Point>
+      <address>1444 Wazee Street, #115 Denver, CO 80202</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MADISON ENTERPRISES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.9465041228,39.714381678192,0</coordinates>
+      </Point>
+      <address>111 S Madison St, Suite 111 Denver, CO
+      80209</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MAGNA MARKETING INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98660392031,39.730352606895,0</coordinates>
+      </Point>
+      <address>20 E. 9th Avenue Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MASSAGE SPECIALISTS DENVER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98733867247,39.717850860406,0</coordinates>
+      </Point>
+      <address>70 Broadway, Suite 50 Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MAYFLOWER GROUP LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97304020552,39.744062979104,0</coordinates>
+      </Point>
+      <address>1736 Downing St. Denver, CO 80218</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MEDICINAL WELLNESS CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.91461253999,39.678892396256,0</coordinates>
+      </Point>
+      <address>6359 E. Evans Avenue Denver, CO 80222</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MEDICINE MAN PRODUCTION CORPORATION</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.85209543888,39.783601529425,0</coordinates>
+      </Point>
+      <address>4750 Nome Street Unit B Denver, CO 80239</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MGI INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99364667644,39.773284202194,0</coordinates>
+      </Point>
+      <address>4125 Elati Street Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MILE HIGH DISPENSARY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.05286724697,39.691923520862,0</coordinates>
+      </Point>
+      <address>1350 S Sheridan Blvd, Unit 1 Denver, CO
+      80232</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MILE HIGH GREEN CROSS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98744292748,39.730325127618,0</coordinates>
+      </Point>
+      <address>852 N Broadway Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MILE HIGH THERAPEUTIC NETWORK LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02499925961,39.688497913743,0</coordinates>
+      </Point>
+      <address>1568 S. Federal Blvd. Denver, CO 80219</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MILE HIGH WELLNESS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.8991754835,39.652228305166,0</coordinates>
+      </Point>
+      <address>3525 S Tamarac Dr.# 110 Denver, CO 80237</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MMD OF COLORADO LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.9860806632,39.759489949995,0</coordinates>
+      </Point>
+      <address>2609 Walnut Street Denver, CO 80205</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>MMST LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98717108193,39.685187065791,0</coordinates>
+      </Point>
+      <address>1724 S. Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>NATURES CURE III LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.96917823236,39.739817222535,0</coordinates>
+      </Point>
+      <address>1500 E Colfax Ave Denver, CO 80218</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>NATURES CURE LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.04303460637,39.689507673906,0</coordinates>
+      </Point>
+      <address>4283 West Florida Avenue Denver, CO 80219</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>NUTRITIONAL ELEMENTS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.94104583118,39.66584408398,0</coordinates>
+      </Point>
+      <address>2777 S. Colorado Blvd. Denver, CO 80222</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>NUTRITIONAL SUPPLEMENTS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.0200330457,39.769429721781,0</coordinates>
+      </Point>
+      <address>2647 W. 38th Avenue Denver, CO 80211</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ORGANIC GREENS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99761172194,39.750056565448,0</coordinates>
+      </Point>
+      <address>1620 Market Street Denver, CO 80202</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PAIN MANAGEMENT OF GOVERNORS PARK LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97787854777,39.725827732266,0</coordinates>
+      </Point>
+      <address>745 E 6th Ave Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PATIENTS CHOICE OF COLORADO LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98796690812,39.67578254505,0</coordinates>
+      </Point>
+      <address>2251 S. Broadway Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PATIENTS PLUS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97969461125,39.777982138063,0</coordinates>
+      </Point>
+      <address>4493 Washington Street Denver, CO 80215</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PEARL CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98075135462,39.690411579225,0</coordinates>
+      </Point>
+      <address>1445 S. Pearl Street Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PERSONALIZED ORGANIC TREATMENTS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.01350319706,39.72064473578,0</coordinates>
+      </Point>
+      <address>219 Vallejo St. Denver, CO 80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>PLATTE VALLEY DISPENSARY LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.01454798889,39.752351103531,0</coordinates>
+      </Point>
+      <address>2301 B 7th Street Denver, CO 80211</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>RIVERSIDE WELLNESS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97776889991,39.773699555919,0</coordinates>
+      </Point>
+      <address>3722 Chestnut Place Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ROCKY MOUNTAIN FARMACY INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.94060573544,39.673235051678,0</coordinates>
+      </Point>
+      <address>2420 S Colorado Blvd. Denver, CO 80222</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ROCKY MOUNTAIN FARMACY INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.94325439188,39.773635159113,0</coordinates>
+      </Point>
+      <address>4095 Jackson Street Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ROCKY MOUNTAIN HIGH MMJ LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.96140588044,39.696600498975,0</coordinates>
+      </Point>
+      <address>2215 E Mississippi Ave Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>ROCKY MOUNTAIN MEDICAL MARIJUANA LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.05275999179,39.696059866812,0</coordinates>
+      </Point>
+      <address>1126 South Sheridan Blvd. Denver, CO 80232</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>SENSE OF HEALING LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02553677967,39.733113910932,0</coordinates>
+      </Point>
+      <address>1005 N Federal Blvd Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>SERENDIPITY ENTERPRISES INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.86823839027,39.654126937742,0</coordinates>
+      </Point>
+      <address>3480 S Galena St B-4 Denver, CO 80231</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>SERENITY MOON WELLNESS CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.00258684591,39.716695071409,0</coordinates>
+      </Point>
+      <address>50 Lipan Street Denver, CO 80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>SERENITY MOON WELLNESS CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.91556183731,39.740093900941,0</coordinates>
+      </Point>
+      <address>6302 E. Colfax Avenue Denver, CO 80220</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>SISSCO LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.0532237286,39.728153133366,0</coordinates>
+      </Point>
+      <address>734 Sheridan Blvd. Denver, CO 80214</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>SUMMIT WELLNESS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99108934546,39.754286835772,0</coordinates>
+      </Point>
+      <address>2117 Larimer Street, #1 Denver, CO 80205</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>SWEET LEAF LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.05225235547,39.769116659068,0</coordinates>
+      </Point>
+      <address>5100 W. 38th Avenue Denver, CO 80212</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>SWEETWATER PARTNERS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98301939535,39.740021237563,0</coordinates>
+      </Point>
+      <address>330 E. Colfax Avenue Denver, CO 80203</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>TETRA HYDRO CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.8807454355,39.652238722719,0</coordinates>
+      </Point>
+      <address>9206 E Hampden Ave Denver, CO 80247</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE CLONE STORE LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02547181906,39.702905899321,0</coordinates>
+      </Point>
+      <address>755 S. Federal Blvd. Denver, CO 80219</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE GIVING TREE OF DENVER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02080628038,39.769377343105,0</coordinates>
+      </Point>
+      <address>2707 W. 38th Avenue Denver, CO 80211</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE HEALING CENTER OF COLORADO</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.90462645217,39.739456474603,0</coordinates>
+      </Point>
+      <address>1452 Poplar Street Denver, CO 80220</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE HEALING LEAF LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97860256983,39.78454911197,0</coordinates>
+      </Point>
+      <address>4837 Washington St Denver, CO 80216</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE HEALTH JOINT LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.05237538368,39.776701823658,0</coordinates>
+      </Point>
+      <address>4401 Zenobia St Denver, CO 80212</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE HERBAL CENTER LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98768546001,39.681744120769,0</coordinates>
+      </Point>
+      <address>1909 S. Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE HERBAL CURE LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.98347020412,39.698890156613,0</coordinates>
+      </Point>
+      <address>985 S. Logan St. Denver, CO 80209</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE PURPLE DRAGON LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02570175973,39.750818351199,0</coordinates>
+      </Point>
+      <address>2243 Federal Blvd. Denver, CO 80211</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>THE TEA POT LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02481700497,39.747839347173,0</coordinates>
+      </Point>
+      <address>2008 Federal Blvd Denver, CO 80211</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>TREATMENTS UNLIMITED LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.90853526468,39.676252920331,0</coordinates>
+      </Point>
+      <address>2250 S. Oneida Street, Unit 204 Denver, CO
+      80224</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>UNIQUEITMINDS INC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.91153720344,39.701917817895,0</coordinates>
+      </Point>
+      <address>6625 Leetsdale Drive, #A Denver, CO 80224</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>UNIVERSAL HERBS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99741192121,39.751760247561,0</coordinates>
+      </Point>
+      <address>1730 Blake Street, #420 Denver, CO 80202</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>URBAN CANNABIS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.97377860145,39.673307006792,0</coordinates>
+      </Point>
+      <address>2383 S Downing St Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>URBAN HEALTH &amp; WELLNESS</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02032819682,39.769543689934,0</coordinates>
+      </Point>
+      <address>2675 W. 38th Avenue Denver, CO 80211</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>VERY BEST MEDICINE, LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.90878152184,39.700419973831,0</coordinates>
+      </Point>
+      <address>6853 Leetsdale Drive Denver, CO 80224</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>VITA MEDS LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.93131745158,39.680217704838,0</coordinates>
+      </Point>
+      <address>2000 S. Dahlia Street, #250 Denver, CO
+      80222</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>WALKING RAVEN</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.9879518011,39.680142185862,0</coordinates>
+      </Point>
+      <address>2001 S. Broadway Denver, CO 80210</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>WANNA LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -104.99193867273,39.71147274377,0</coordinates>
+      </Point>
+      <address>183 W. Alameda Avenue Denver, CO 80223</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    <Placemark>
+      <name>WESTERN REMEDIES LLC</name>
+      <description></description>
+      <Point>
+        <coordinates>
+        -105.02026384514,39.729020321403,0</coordinates>
+      </Point>
+      <address>777 Canosa Ct. #102 Denver, CO 80204</address>
+      <styleUrl>#0</styleUrl>
+    </Placemark>
+    </Folder>
+  </Document>
+</kml>

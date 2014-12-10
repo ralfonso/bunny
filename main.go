@@ -8,14 +8,9 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-	"sync"
 	"time"
 
 	"github.com/paulsmith/gogeos/geos"
-)
-
-const (
-	workers int = 30
 )
 
 // convenience types for arrays
@@ -38,7 +33,6 @@ type Placemark struct {
 	Description string `xml:"description"`
 	Address     string `xml:"address"`
 	Geometry    *geos.Geometry
-	rating      int
 }
 
 // Dispensary type using the Placemark as a mixin
@@ -173,65 +167,34 @@ type ParkDistance struct {
 	distance float64
 }
 
-func nearestParks(wg *sync.WaitGroup, parks []Park, input <-chan Dispensary, output chan<- *ParkDistance) {
+func nearestPark(parks []Park, store Dispensary) (nearest *ParkDistance) {
 
-	// defer a function to signal the waitgroup that this worker is complete
-	// runs regardless of errors/panic
-	defer wg.Done()
+	for _, park := range parks {
+		// artificial latency!
+		time.Sleep(100 * time.Microsecond)
+		distance, err := store.Geometry.Distance(park.Geometry)
 
-	// range is channel aware, will loop and block
-	// until the channel is closed
-	for store := range input {
-		// use a pointer for the convenience of nil
-		var nearest *ParkDistance
-
-		for _, park := range parks {
-			// artificial latency!
-			time.Sleep(100 * time.Microsecond)
-			distance, err := store.Geometry.Distance(park.Geometry)
-
-			if err == nil {
-				if nearest == nil || distance < nearest.distance {
-					nearest = &ParkDistance{store: store, park: park, distance: distance}
-				}
-			} else {
-				fmt.Println(err)
+		if err == nil {
+			if nearest == nil || distance < nearest.distance {
+				nearest = &ParkDistance{store: store, park: park, distance: distance}
 			}
+		} else {
+			fmt.Println(err)
 		}
-
-		// push the result onto the output channel
-		output <- nearest
 	}
-}
 
-// a worker that reads from a result channel and does some tracking to
-// find the shortest distance among them
-func nearestPair(wg *sync.WaitGroup, results <-chan *ParkDistance) chan *ParkDistance {
-
-	result := make(chan *ParkDistance)
-
-	go func() {
-		var nearest *ParkDistance
-
-		// range will block until the channel is exhausted AND closed
-		for parkDistance := range results {
-			if nearest == nil || parkDistance.distance < nearest.distance {
-				nearest = parkDistance
-			}
-		}
-
-		result <- nearest
-	}()
-
-	return result
+	return nearest
 }
 
 func sanitizeAddress(address string) (clean string) {
 	whitespaceRe := regexp.MustCompile("\\s{2,}")
+
 	// an example where optional arguments would be nice
 	clean = strings.Replace(address, "\n", "", -1)
+
 	// clean up spaces
 	clean = whitespaceRe.ReplaceAllLiteralString(clean, " ")
+
 	// optional return value (don't do this)
 	return
 }
@@ -254,50 +217,14 @@ func main() {
 	stores := storeKml.Dispensaries
 	parks := parkKml.Parks
 
-	// create channels for the work queue and the results
-	// these channels are buffered to avoid blocking writes
-	// we have a small data set, so just use that buffer size
-	storeCount := len(stores)
-	workQueue := make(chan Dispensary, storeCount)
-	results := make(chan *ParkDistance, storeCount)
+	var nearest *ParkDistance
 
-	// create a wait group to track worker completion
-	var wg sync.WaitGroup
-
-	// start up our workers, incrementing the WaitGroup each time
-	for i := 0; i < workers; i++ {
-		wg.Add(1)
-		go nearestParks(&wg, parks, workQueue, results)
-	}
-
-	finalResult := nearestPair(&wg, results)
-
-	// all workers are waiting for input
-
-	// queue up all of the stores for distance checks
 	for _, store := range stores {
-		workQueue <- store
+		distanceForStore := nearestPark(parks, store)
+		if nearest == nil || distanceForStore.distance < nearest.distance {
+			nearest = distanceForStore
+		}
 	}
-
-	// once we've queued all stores, we close the channel so
-	// the workers can exit
-	close(workQueue)
-
-	// if we don't wait, we have a race condition. make sure
-	// all workers finish their jobs and exit
-	wg.Wait()
-
-	// all the workers have completed, so we can close the results
-	// channel, which tells the collector it can exit when it's done
-	close(results)
-
-	// blocks until the channel has data.
-	nearest := <-finalResult
-
-	fmt.Println(strings.Repeat("=", 80))
-	fmt.Println("Nearest To A Park")
-	fmt.Println(strings.Repeat("=", 80))
-	fmt.Println()
 
 	printStore(nearest.store)
 	fmt.Println(fmt.Sprintf("nearest park: %s, %f", nearest.park.Name, nearest.distance))

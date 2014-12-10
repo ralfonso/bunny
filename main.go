@@ -2,12 +2,10 @@ package main
 
 import (
 	"encoding/xml"
-	"flag"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"regexp"
-	"sort"
 	"strconv"
 	"strings"
 	"sync"
@@ -55,22 +53,6 @@ type Dispensary struct {
 type Park struct {
 	Placemark
 	LinearRingCoords string `xml:"MultiGeometry>Polygon>outerBoundaryIs>LinearRing>coordinates"`
-}
-
-func (d Dispensaries) Len() int {
-	return len(d)
-}
-
-func (d Dispensaries) Swap(i, j int) {
-	d[i], d[j] = d[j], d[i]
-}
-
-var office *geos.Geometry
-
-func (d Dispensaries) Less(i, j int) bool {
-	d1, _ := d[i].Geometry.Distance(office)
-	d2, _ := d[j].Geometry.Distance(office)
-	return d1 < d2
 }
 
 // custom XML unmarshal function for Dispensary placemarks
@@ -266,17 +248,6 @@ func main() {
 	var storeKml DispensaryKml
 	var parkKml ParkKml
 
-	officeLat := flag.String("lat", "", "lat of location")
-	officeLng := flag.String("lng", "", "lng of location")
-	flag.Parse()
-
-	var err error
-	office, err = geos.FromWKT(fmt.Sprintf("POINT(%s %s)", *officeLng, *officeLat))
-	if err != nil {
-		fmt.Println("Unable to create geometry from lat/lng", err)
-		os.Exit(1)
-	}
-
 	kmlToPlacemarks("assets/dispensaries.kml", &storeKml)
 	kmlToPlacemarks("assets/parks.kml", &parkKml)
 
@@ -303,15 +274,9 @@ func main() {
 
 	// all workers are waiting for input
 
-	// sort the stores by distance from office
-	sort.Sort(sort.Reverse(stores))
-
 	// queue up all of the stores for distance checks
 	for _, store := range stores {
 		workQueue <- store
-
-		printStore(store)
-		fmt.Println()
 	}
 
 	// once we've queued all stores, we close the channel so

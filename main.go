@@ -161,12 +161,13 @@ func kmlToPlacemarks(kmlFileName string, intf interface{}) {
 // a type to contain a park and its distance
 // from a dispensary
 type ParkDistance struct {
-	store    Dispensary
 	park     Park
 	distance float64
 }
 
-func nearestPark(parks []Park, store Dispensary) (nearest *ParkDistance) {
+func nearestPark(parks []Park, store Dispensary) {
+
+	var nearest *ParkDistance
 
 	for _, park := range parks {
 		// artificial latency!
@@ -174,14 +175,15 @@ func nearestPark(parks []Park, store Dispensary) (nearest *ParkDistance) {
 
 		if err == nil {
 			if nearest == nil || distance < nearest.distance {
-				nearest = &ParkDistance{store: store, park: park, distance: distance}
+				nearest = &ParkDistance{park: park, distance: distance}
 			}
 		} else {
 			fmt.Println(err)
 		}
 	}
 
-	return nearest
+	printStore(store)
+	fmt.Println(fmt.Sprintf("nearest park: %s, %f\n", nearest.park.Name, nearest.distance))
 }
 
 func sanitizeAddress(address string) (clean string) {
@@ -215,15 +217,7 @@ func main() {
 	stores := storeKml.Dispensaries
 	parks := parkKml.Parks
 
-	var nearest *ParkDistance
-
 	for _, store := range stores {
-		distanceForStore := nearestPark(parks, store)
-		if nearest == nil || distanceForStore.distance < nearest.distance {
-			nearest = distanceForStore
-		}
+		nearestPark(parks, store)
 	}
-
-	printStore(nearest.store)
-	fmt.Println(fmt.Sprintf("nearest park: %s, %f", nearest.park.Name, nearest.distance))
 }

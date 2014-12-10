@@ -50,10 +50,13 @@ func kmlToPlacemarks(kmlFileName string, intf interface{}) {
 
 func sanitizeAddress(address string) (clean string) {
 	whitespaceRe := regexp.MustCompile("\\s{2,}")
+
 	// an example where optional arguments would be nice
 	clean = strings.Replace(address, "\n", "", -1)
+
 	// clean up spaces
 	clean = whitespaceRe.ReplaceAllLiteralString(clean, " ")
+
 	// optional return value (don't do this)
 	return
 }

@@ -8,7 +8,6 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-	"time"
 
 	"github.com/paulsmith/gogeos/geos"
 )
@@ -171,7 +170,6 @@ func nearestPark(parks []Park, store Dispensary) (nearest *ParkDistance) {
 
 	for _, park := range parks {
 		// artificial latency!
-		time.Sleep(100 * time.Microsecond)
 		distance, err := store.Geometry.Distance(park.Geometry)
 
 		if err == nil {
